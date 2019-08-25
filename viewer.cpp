@@ -24,7 +24,7 @@ viewer::viewer(QOpenGLWidget* parent) : QOpenGLWidget(parent) {
 }
 
 void viewer::initializeGL() {
-  // glEnable(GL_MULTISAMPLE);
+  glEnable(GL_MULTISAMPLE);
   glClearColor(1, 1, 1, 1);
 }
 
